@@ -5,16 +5,11 @@ import { useUsersStore } from '@/stores/users.store'
 const usersStore = useUsersStore()
 
 onMounted(() => {
-  // usersStore.status = 'ready'
-  console.log(usersStore.getAll)
-  // usersStore.resetStatus()
-  // usersStore.getAll()
+  usersStore.resetStatus()
 })
 
 function getAllUsers() {
-  console.log(usersStore.getAll)
-  // usersStore.resetStatus()
-  // usersStore.getAll()
+  usersStore.getAll()
 }
 </script>
 

@@ -5,7 +5,7 @@ import { usersAPI } from '@/gateways'
 
 export const useUsersStore = defineStore({
   id: 'users',
-  persist: true,
+  // persist: true,
 
   state: () => ({
     status: 'ready',

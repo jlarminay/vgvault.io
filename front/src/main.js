@@ -8,6 +8,9 @@ import App from './App.vue'
 import router from './router'
 import { makeServer } from '../mirage/server'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap'
+
 const env = import.meta.env
 
 if (env.MODE === 'development') {

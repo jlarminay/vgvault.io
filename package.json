@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "install": "cd front && npm i",
+    "docker": "docker-compose -f docker-compose.yml up -d --build",
     "dev": "cd front && npm run dev",
 
     "front:dev": "cd front && npm run dev",

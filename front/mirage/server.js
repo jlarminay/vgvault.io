@@ -29,7 +29,7 @@ export function makeServer({ environment = 'development' } = {}) {
       this.passthrough()
 
       // external APIs
-      this.passthrough('https://api.dictionaryapi.dev/**')
+      // this.passthrough('//unpkg.com/boxicons@2.1.2/**')
     },
   })
 }
