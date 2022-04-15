@@ -1,0 +1,16 @@
+{
+  "name": "vgvault.io",
+  "version": "0.0.0",
+  "scripts": {
+    "install": "cd front && npm i",
+    "dev": "cd front && npm run dev",
+
+    "front:dev": "cd front && npm run dev",
+    "front:build": "cd front && npm run build",
+    "front:test:unit": "cd front && npm run test:unit",
+    "front:test:unit:coverage": "cd front && npm run test:unit:coverage",
+    "front:test:e2e": "cd front && npm run test:e2e",
+    "front:test:e2e:ui": "cd front && npm run test:e2e:ui",
+    "front:lint": "cd front && npm run lint"
+  }
+}

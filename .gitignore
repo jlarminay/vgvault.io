@@ -1,0 +1,5 @@
+front/node_modules
+front/dist
+front/coverage
+front/cypress/videos
+front/cypress/screenshots
